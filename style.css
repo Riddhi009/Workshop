@@ -1,0 +1,146 @@
+*{
+ margin :0;
+ padding:0;   
+}
+
+.main{
+width : 100%;
+background: url(pic/b5.jpg);
+background-position:top;
+background-size:cover;
+height: 100vh;
+position:fixed;
+font-family:sans-serif;
+
+
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin:auto;
+    padding:15px 0;
+    align-items :center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 600px;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: -2%;
+    }
+  
+      
+     ul {
+        margin-top: 5%;
+        position:static;
+        }
+    
+      ul li {
+                list-style: none;
+                display: inline-block;
+                 padding: 30px 25px;
+             }
+      
+     ul li a{
+                font-size:25px;
+                font-weight: bold;
+                text-decoration:none;
+                color:black;
+                margin-top: 5%;
+            }
+
+     ul li a:hover
+            {
+                color:rgb(237, 238, 240);
+            }
+
+
+.info{
+
+    margin-left:5%;
+    margin-top: 5%;
+}
+
+.info h1{
+    font-size: 55px;
+    letter-spacing: 1px;
+    line-height: 60px;
+    color :black;
+    font-style: initial;
+}
+
+.info h2{
+    font-size: 45px;
+    letter-spacing: 1px;
+    line-height: 60px;
+    color: black;
+    }
+
+.info h3{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 47px;
+}
+.info h4{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    
+   }
+    
+
+    h4 a{
+        color:black;
+    }
+    h4 a :hover {
+        color:rgb(237, 238, 240);
+    }
+
+        
+    .info span
+    {
+        color:aliceblue;
+    }
+
+    .info a{
+
+        text-decoration: none;
+        color:aliceblue;
+        background: black;
+        margin: 40px 0;
+        border-radius: 20px;
+        display: inline-block;
+    }
+
+    .image
+    {
+        width: 30%;
+        height: 60%;
+        position: absolute;
+        right: 100px;
+        bottom:0;
+
+    }
+    .image img{
+        position:absolute;
+        height: 120%;
+        left: 40%;
+        transform: translate(-55%);
+        bottom: 1;
+        transition: linear 2s ease;
+    }
+    .image:hover.girl{
+        left:55%;
+    }
+
+    .icons ion-icon{
+        margin-left: 10%;
+        color:cornflowerblue;
+        margin-right: -60%;
+        font-size: 45px;
+      transition: .4s ease;
+        
+
+    }
